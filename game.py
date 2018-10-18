@@ -138,9 +138,7 @@ def print_room(room):
     print("")
     print_room_items(room)
     
-    #
-    # COMPLETE ME!
-    #
+   
 
 def exit_leads_to(exits, direction):
     """This function takes a dictionary of exits and a direction (a particular
@@ -213,9 +211,7 @@ def print_menu(exits, room_items, inv_items):
     for drop_item in inv_items:
         print("DROP "+drop_item["id"].upper()+" to drop "+drop_item["name"])
         
-    #
-    # COMPLETE ME!
-    #
+   
     
     print("What do you want to do?")
 
